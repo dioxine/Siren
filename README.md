@@ -55,6 +55,8 @@ Siren can be deployed seamlessly using GitHub Actions with Cloudflare Workers.
 
    - [Create an API Token for whole Profile](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/) with:
      - Permissions template: "Edit Cloudflare Workers"
+     - Account Resources: select your account
+     - Zone Resources: All zones
 
 4. **Set GitHub Repository Secret**
 
