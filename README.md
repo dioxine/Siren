@@ -58,12 +58,13 @@ Siren can be deployed seamlessly using GitHub Actions with Cloudflare Workers.
      - Account Resources: select your account
      - Zone Resources: All zones
 
-4. **Set GitHub Repository Secret**
+4. **Set GitHub Repository Secret** (no `.env` needed in this case)
 
    - Navigate to: GitHub → Your Repo → Settings → Secrets and variables → Actions
    - Add a new secret:
      - Name: `CLOUDFLARE_API_TOKEN`
      - Value: Your API token
+  
 
 5. **Enable GitHub Actions**
 
