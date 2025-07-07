@@ -39,7 +39,7 @@ Siren can be deployed seamlessly using GitHub Actions with Cloudflare Workers.
 
 1. **Create a KV Namespace**
 
-   - Go to Cloudflare Dashboard → Workers → KV.
+   - Go to Cloudflare Dashboard → Storage & Databases → KV.
    - Create a new namespace named `SIREN`.
 
 2. **Configure `wrangler.toml`**
@@ -53,8 +53,8 @@ Siren can be deployed seamlessly using GitHub Actions with Cloudflare Workers.
 
 3. **Generate API Token**
 
-   - [Create an API Token](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/) with:
-     - Permissions: Workers & KV Storage
+   - [Create an API Token for whole Profile](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/) with:
+     - Permissions template: "Edit Cloudflare Workers"
 
 4. **Set GitHub Repository Secret**
 
