@@ -1,6 +1,6 @@
 # Siren
 
-**A Serverless V2Ray Tunnel Optimized for Indonesia**
+**A Serverless V2Ray Tunnel**
 
 Siren is a lightweight and serverless V2Ray tunnel built on [Cloudflare Workers](https://workers.cloudflare.com/), supporting modern proxy protocols.  
 It offers fast, secure, and scalable deployment without the need for a traditional VPS.
