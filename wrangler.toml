@@ -7,6 +7,9 @@ minify = true
 binding = "SIREN"
 id = "3b13c87ae2a34b7f8866f1e8fc8364ba"
 
+[placement]
+mode = "smart"
+
 [build]
 command = "cargo install worker-build && worker-build --release"
 
@@ -15,5 +18,5 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/sub.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/dioxine/Siren/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/dioxine/Siren/refs/heads/master/web/sub.html"
