@@ -7,9 +7,6 @@ minify = true
 binding = "SIREN"
 id = "3b13c87ae2a34b7f8866f1e8fc8364ba"
 
-[placement]
-mode = "default"
-
 [build]
 command = "cargo install worker-build && worker-build --release"
 
