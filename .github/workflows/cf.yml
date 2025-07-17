@@ -22,4 +22,7 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: echo "$(uuidgen)"
+          run: echo "UUID=$(uuidgen)" >> $GITHUB_ENV
+          environment: production
+          secrets:
+            $UUID
